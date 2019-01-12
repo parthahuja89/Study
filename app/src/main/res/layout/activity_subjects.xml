@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:context=".subjects"
+        android:orientation="vertical"
+        android:background="#CBA164"
+        android:paddingTop="10dp"
+        
+        
+>
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:clickable="true" app:srcCompat="@drawable/ic_add_more" android:id="@+id/floatingActionButton"
+            app:backgroundTint="@color/colorAccent"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+
+    />
+
+    <!-- Each cardview with subject lines -->
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            android:layout_height="245.44dp"
+            android:layout_width="314.82dp"
+            android:paddingTop="20dp"
+            card_view:cardCornerRadius="4dp">
+
+
+        <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/imageView"
+                android:layout_width="310dp"
+                android:layout_height="174dp"
+                android:src="@drawable/classics"/>
+
+        <!-- Subject Name -->
+        <TextView
+                android:text="Classics"
+                android:textColor="#96897B"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView"
+                android:layout_marginTop="160dp"
+                android:textSize="50dp"
+        />
+        <!-- description of subject -->
+        <TextView
+                android:text="Notes from Mrs. Steven’s APY106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView2"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="12dp"
+        />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            android:layout_height="245.44dp"
+            android:layout_width="314.82dp"
+            android:paddingTop="20dp"
+            card_view:cardCornerRadius="4dp">
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            android:layout_height="245.44dp"
+            android:layout_width="314.82dp"
+            android:paddingTop="20dp"
+            card_view:cardCornerRadius="4dp">
+    </android.support.v7.widget.CardView>
+    <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+    </ScrollView>

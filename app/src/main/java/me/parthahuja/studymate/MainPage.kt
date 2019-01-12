@@ -28,9 +28,11 @@ class MainPage : AppCompatActivity() {
             routeSecond()
         }
     }
-
+    /*
+    Routing to different activity page
+     */
     fun routeSecond(){
-        val route = Intent(this, second_activity::class.java)
+        val route = Intent(this, subjects::class.java)
         startActivity(route)
     }
 }

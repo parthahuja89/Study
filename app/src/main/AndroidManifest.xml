@@ -22,7 +22,9 @@
         <activity
                 android:name=".second_activity"
                 android:label="@string/title_activity_second_activity"
-                android:theme="@style/AppTheme.NoActionBar">
+                android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".subjects">
         </activity>
     </application>
 
