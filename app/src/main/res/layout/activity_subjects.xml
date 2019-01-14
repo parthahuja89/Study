@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         tools:context=".subjects"
         android:orientation="vertical"
-        android:background="#CBA164"
+        android:background="#DBAD6A"
         android:paddingTop="10dp"
         
         
@@ -22,7 +22,7 @@
 
     <android.support.design.widget.FloatingActionButton
             android:layout_height="wrap_content"
-            android:clickable="true" app:srcCompat="@drawable/ic_add_more" android:id="@+id/floatingActionButton"
+            android:clickable="true" app:srcCompat="@drawable/ic_add_more" android:id="@+id/add_button"
             app:backgroundTint="@color/colorAccent"
             android:layout_marginLeft="350dp"
             android:layout_marginTop="0dp"
@@ -54,10 +54,11 @@
         <TextView
                 android:text="Classics"
                 android:textColor="#96897B"
+                android:textStyle="bold"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/textView"
-                android:layout_marginTop="160dp"
+                android:layout_marginTop="164dp"
                 android:textSize="50dp"
         />
         <!-- description of subject -->
