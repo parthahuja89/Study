@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a generic layout for the recycler view -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView android:layout_width="314.82dp"
+                                        android:layout_height="245.44dp">
+
+        <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/subject_image"
+                android:layout_width="310dp"
+                android:layout_height="174dp"
+                android:src="@drawable/classics"/>
+
+        <!-- Subject Name -->
+        <TextView
+                android:textColor="#96897B"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/subject_ID"
+                android:layout_marginTop="164dp"
+                android:textSize="50dp"
+        />
+        <!-- description of subject -->
+        <TextView
+                android:text="Notes from Mrs. Steven’s APY106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/description"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="12dp"
+        />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

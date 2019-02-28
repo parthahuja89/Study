@@ -23,7 +23,6 @@ class MainPage : AppCompatActivity() {
         val button_element = findViewById<Button>(R.id.roll)
 
         //listening for button_element click
-
         button_element.setOnClickListener {
             routeSecond()
         }

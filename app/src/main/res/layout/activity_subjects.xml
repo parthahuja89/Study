@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         tools:context=".subjects"
         android:orientation="vertical"
-        android:background="#DBAD6A"
+        android:background="#2D3047"
         android:paddingTop="10dp"
         
         
@@ -23,7 +23,7 @@
     <android.support.design.widget.FloatingActionButton
             android:layout_height="wrap_content"
             android:clickable="true" app:srcCompat="@drawable/ic_add_more" android:id="@+id/add_button"
-            app:backgroundTint="@color/colorAccent"
+            app:backgroundTint="#C33C54"
             android:layout_marginLeft="350dp"
             android:layout_marginTop="0dp"
             android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
         />
     </android.support.v7.widget.CardView>
 
-
+    <!-- second card -->
     <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view1"
@@ -84,8 +84,7 @@
             card_view:cardCornerRadius="4dp">
     </android.support.v7.widget.CardView>
 
-
-
+    <!-- third card -->
     <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view2"
@@ -100,6 +99,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-</LinearLayout>
 
-    </ScrollView>
+    <!-- Cards Ending -->
+
+    <!-- Testing Recycler View  -->
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_main_view"
+            android:layout_width="500dp"
+            android:layout_height="500dp">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+</ScrollView>
+
