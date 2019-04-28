@@ -32,7 +32,6 @@ class CardsAdapter(private val Dataset: Array<String>) :
     override fun onBindViewHolder(p0: SingleView, p1: Int) {
         //flooding data into the layout
         val title = p0.cardView.findViewById<TextView>(R.id.subject_ID)
-        val desc = p0.cardView.findViewById<TextView>(R.id.description)
 
         title.text = Dataset[p1]
         //TODO: Assign course description
